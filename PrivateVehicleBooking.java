@@ -2,10 +2,9 @@
 /**
  * @Author: Sapana Yonjan
  * @LondonMetID: 15043809
- * this is the class section with class name PrivateVehicleBooking which contains Eight different attributes of String datatype, two attributes of integer datatype and one attribute of logical datatype.
+ * This is the class section with class name PrivateVehicleBooking which contains Eight different attributes of String datatype, two attributes of integer datatype and one attribute of logical datatype.
  */
 /**
- * Question number - 1
  * Giving the attributes
  * Giving 11 attributes
  */
@@ -23,8 +22,7 @@ public class PrivateVehicleBooking
    private int dailyRate;
    private boolean availableStatus;
     /**
-     * Question number - 2
-     * supplying parameters
+     * Supplying parameters
      * Here, only key attributes whose values are constant, are initialized through parameters. 
      * These parameters are supplied to the constructor and their values are assigned to their corresponding attributes.
      */
@@ -43,9 +41,8 @@ public class PrivateVehicleBooking
       this.bookingDate="";
     }
      /**
-     * Question number - 3
-     * it is a getter Method
-     * it returns String value
+     * It is a getter Method
+     * It returns String value
      */
     public String getOfficeName()
     {
@@ -53,8 +50,8 @@ public class PrivateVehicleBooking
     }
      /**
      * 
-     * it is a getter Method
-     * it returns String value
+     * It is a getter Method
+     * It returns String value
      */
     public String getOfficeAddress()
     {
@@ -62,8 +59,8 @@ public class PrivateVehicleBooking
     }
      /**
      * 
-     * it is a getter Method
-     * it returns String value
+     * It is a getter Method
+     * It returns String value
      */
     public String getOfficeContact()
     {
@@ -168,7 +165,6 @@ public class PrivateVehicleBooking
         this.vehicleType=vehicleType;
     }
     /**
-    * Question number - 5
     * 
     * New method that allows the clients to create a booking for any vehicle.
     * it has all the non-key attributes initialized through parameters and their values are assigned to their corresponding attributes.
@@ -189,9 +185,8 @@ public class PrivateVehicleBooking
     
     }
     /**
-    * Question number - 6
     * 
-    * this is a new Method to make booking of vehicles available.
+    * This is a new Method to make booking of vehicles available.
     */
     public void forFree()
     {
@@ -209,9 +204,8 @@ public class PrivateVehicleBooking
     
     }
     /**
-    * Question number - 7
     * 
-    * last method to display the description of the choosen vehicle.
+    * Last method to display the description of the choosen vehicle.
     * This is the last method to display the description of the vehicle availabile. It is of void type.
     */
     public void vehicleDescription()

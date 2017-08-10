@@ -6,7 +6,6 @@
  */
 import java.util.ArrayList;
 /**
- *  Queation No. 1
  *  VehicleCompany is a new class with an attribute that is an arraylist of objects of class created in first part of the coursework.
  *  It enables user to enter details to the arraylist. This programme is written in java language using bluej. 
  *  The user can book multiple vehicles as required in arraylist.
@@ -19,7 +18,6 @@ public class VehicleCompany
     ArrayList <PrivateVehicleBooking> list=new ArrayList <PrivateVehicleBooking>();
 
      /**
-     *  Question No. 2
      *  addPrivateVehicleBooking is a method in VehicleCompany class to add details of the Vehicle Booking to arraylist
      *  It is of public type and
      *  It has no return type
@@ -32,7 +30,6 @@ public class VehicleCompany
         list.add(v);
     }
      /**
-     *  question No. 3
      *  removeLuxuryTaxi is a method in VehicleCompany class to remove a vehicle from arraylist using index no
      *  It is public type and
      *  It has no return type
@@ -51,7 +48,6 @@ public class VehicleCompany
         }
     }
      /**
-     *  Question No. 4 
      *  forBooking is a method to book a Vehicle after the index of the taxi is supplied
      *  It is public type
      *  It has no return type
@@ -71,7 +67,6 @@ public class VehicleCompany
         } 
     }
     /**
-     *  Question No. 5
      *  forfree is a method in the VehicleCompany to free a booked Vehicle
      *  This method gets the vehicle from the VehicleCompany List and calls the method in the PrivateVehicleCompany class to make vehicle free.
      *  It is public type
@@ -92,7 +87,6 @@ public class VehicleCompany
       } 
     }
      /**
-     *  Quetion No. 6
      *  vehicleDescription is a method in new class VehicleCompany for listing all of the vehicles currently available.
      *  It is public
      *  It has no return type
@@ -107,7 +101,6 @@ public class VehicleCompany
         }
     }
      /**
-      * Question No. 7
      *  searchVehicleBooking is a method used to search a vehicle which is currently available and matches the search criteria
      *  It is public
      *  It has no return type
