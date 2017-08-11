@@ -1,8 +1,8 @@
 
 /**
  * @Author: Sapana Yonjan
- * @LondonMetID: 15043809
- * This is the class section with class name PrivateVehicleBooking which contains Eight different attributes of String datatype, two attributes of integer datatype and one attribute of logical datatype.
+ * @Version: 11th August 2017
+ * This is the public class section with class-name PrivateVehicleBooking that holds Eight different attributes of String datatype, two attributes of integer datatype and one attribute of logical datatype.
  */
 /**
  * Giving the attributes
@@ -50,7 +50,7 @@ public class PrivateVehicleBooking
     }
      /**
      * 
-     * It is a getter Method
+     * It is a getter Method for Office Address
      * It returns String value
      */
     public String getOfficeAddress()
@@ -59,7 +59,7 @@ public class PrivateVehicleBooking
     }
      /**
      * 
-     * It is a getter Method
+     * It is a getter Method for Office contact detail
      * It returns String value
      */
     public String getOfficeContact()
@@ -68,8 +68,8 @@ public class PrivateVehicleBooking
     }
      /**
      * 
-     * it is a getter Method
-     * it returns String value
+     * It is a getter Method for Client's name.
+     * It returns String value.
      */
     public String getClientName()
     {
@@ -77,8 +77,8 @@ public class PrivateVehicleBooking
     }
      /**
      *
-     * it is a getter Method
-     * it returns String value
+     * It is a getter Method for chosen vehicle name.
+     * It returns String value.
      */
     public String getVehicleName()
     {
@@ -86,8 +86,8 @@ public class PrivateVehicleBooking
     }
      /**
      *
-     * it is a getter Method
-     * it returns String value
+     * It is a getter Method for the vehicle type.
+     * It returns String value.
      */
     public String getVehicleType()
     {
@@ -95,16 +95,16 @@ public class PrivateVehicleBooking
     }
      /**
      * 
-     * it is a getter Method
-     * it returns String value
+     * It is a getter Method for size.
+     * It returns String value.
      */public String getVehicleSize()
     {
         return vehicleSize;
     }
      /**
      * 
-     * it is a getter Method
-     * it returns String value
+     * it is a getter Method for booking date.
+     * it returns String value.
      */
     public String getBookingDate()
     {
@@ -112,8 +112,8 @@ public class PrivateVehicleBooking
     }
      /**
      * 
-     * it is a getter Method
-     * it returns integer value
+     * it is a getter Method for booking duration.
+     * it returns integer value.
      */
     public int getDuration()
     {
@@ -121,8 +121,8 @@ public class PrivateVehicleBooking
     }
      /**
      *
-     * it is a getter Method
-     * it returns integer value
+     * it is a getter Method for the rate per day.
+     * it returns integer value.
      */
     public int getDailyRate()
     {
@@ -130,17 +130,17 @@ public class PrivateVehicleBooking
     }
      /**
      *
-     * it is a getter Method
-     * it returns boolean value
+     * it is a getter Method for availability status.
+     * it returns boolean value.
      */
     public boolean getAvailableStatus()
     {
         return availableStatus;
     }
      /**
-     * Question number - 4
-     * It's setter method
-     * It's a new method by setting new value
+     * 
+     * It's setter method for office name.
+     * It's a new method by setting new value.
      */
     public void setOfficeName(String officeName)
     {
@@ -148,7 +148,7 @@ public class PrivateVehicleBooking
     }
     /**
     *
-    * It's setter method
+    * It's setter method.
     * It's a method for setting office address, parameter is assigned to its corresponding attribute.
     */
     public void setOfficeAddress(String officeAddress)
@@ -157,8 +157,9 @@ public class PrivateVehicleBooking
     }
     /**
     *
-    * It's setter method
-    * It's a method of setting new vehicle type, parameter is assigned to its corresponding attribute.
+    * It is a setter method.
+    * It allows the user to setting new vehicle type,
+    * parameter is assigned to its corresponding attribute.
     */
     public void setVehicleType(String vehicleType)
     {
@@ -166,8 +167,8 @@ public class PrivateVehicleBooking
     }
     /**
     * 
-    * New method that allows the clients to create a booking for any vehicle.
-    * it has all the non-key attributes initialized through parameters and their values are assigned to their corresponding attributes.
+    * New method, froBooking allows the clients to create a booking for any vehicle.
+    * It has all the non-key attributes that were initialized through parameters and their values are assigned to their corresponding attributes.
     */ 
     public void forBooking(String clientName,String bookingDate,int duration)
     {
@@ -186,7 +187,7 @@ public class PrivateVehicleBooking
     }
     /**
     * 
-    * This is a new Method to make booking of vehicles available.
+    * forFree is a new Method to make the booking of vehicles available.
     */
     public void forFree()
     {
