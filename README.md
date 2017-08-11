@@ -9,7 +9,7 @@ The project itself is divided in two parts; the first being "PrivateVehicleBooki
 
 The first half of the project, "PrivateVehicleBookng" is simply a "class (public)" that deals with storing various attributes such as: vehicle’s short description, daily rate, booking date, availability status, booking time-duration and so forth. These attributes can be of any datatype: string, integer and boolean.
 
-Whereas, the second half, "VehicleCompany" is a representation of an "object" of the previous class (PrivateVehicleBooking), that was developed in the first part of project. This part deals with creation of an object that simulates
+Whereas, the second half, "VehicleCompany" is a new class that represents an "object" of the previous class (PrivateVehicleBooking), that was developed in the first part of project. This part deals with creation of an object that simulates
 - adding and removing objects from the list of objects,
 - storing records of the users such as: their name, address, contact, their business organization, etc.
 - making the vehicles available for customer to book/hire,
