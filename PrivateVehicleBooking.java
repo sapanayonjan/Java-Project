@@ -23,7 +23,7 @@ public class PrivateVehicleBooking
    private int dailyRate;
    private boolean availableStatus;
     /**
-     * Supplying parameters
+     * Supplying parameters.
      * Here, only key attributes whose values are constant, are initialized through parameters. 
      * These parameters are supplied to the constructor and their values are assigned to their corresponding attributes.
      */
