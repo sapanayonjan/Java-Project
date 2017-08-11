@@ -1,7 +1,8 @@
 
 /**
+ * class PrivteVehicleBooking
  * @Author: Sapana Yonjan
- * @Version: 11th August 2017
+ * @Version Date: 11th August 2017
  * This is the public class section with class-name PrivateVehicleBooking that holds Eight different attributes of String datatype, two attributes of integer datatype and one attribute of logical datatype.
  */
 /**
