@@ -1,12 +1,11 @@
 /**
  * class VehicleCompany
  * @Author: Sapana Yonjan
- * @ ID : 15043809
  * @Version Date: 12th August, 2016
  */
 import java.util.ArrayList;
 /**
- *  VehicleCompany is a new class with an attribute that is an arraylist of objects of class created in first part of the coursework.
+ *  VehicleCompany is a new class with an attribute that is an arraylist of objects of class created in first part of the project.
  *  It enables user to enter details to the arraylist. This programme is written in java language using bluej. 
  *  The user can book multiple vehicles as required in arraylist.
  *  There are 1 attribute and 6 methods set in this programme.
