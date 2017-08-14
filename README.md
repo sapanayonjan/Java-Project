@@ -3,7 +3,7 @@ This is a simple Java Project.
 
 This Project is built with all the coding done in BlueJ, A free Java Development Environment designed for beginners, used by millions worldwide.
 
-The project is features a simple system that allows user to select, book, hire, and free the vehicles of any kind. Upon selection of the particular vehicle, the program results with the short description of the chosen motor, along with its availability status, daily rate, etc accordingly. The users can make the selection after passing their personal details like their name, address, contact, etc. The program lets the user to select or free the vehicle for hiring.
+The project features a simple system that allows user to select, book, hire, and free the vehicles of any kind. Upon selection of the particular vehicle, the program results with the short description of the chosen motor, along with its availability status, daily rate, etc accordingly. The users can make the selection after passing their personal details like their name, address, contact, etc. The program lets the user to select or free the vehicle for hiring.
 
 The project itself is divided in two parts; the first being "PrivateVehicleBooking" (i.e., a public class), and the second part being, "VehicleCompany" (i.e., an object of the previous class).
 
